@@ -3,6 +3,11 @@ import plotly.graph_objects as go
 import pandas as pd
 import joblib
 
+st.set_page_config(
+    page_title="IBM Telecom Customer Churn",
+    layout="centered"   # better for mobile
+)
+
 # =========================
 # PAGE CONFIG
 # =========================
@@ -140,6 +145,9 @@ payment = st.sidebar.selectbox(
 monthly_charges = st.sidebar.slider("Monthly Charges ($)", 18.0, 120.0, 92.0)
 
 predict_btn = st.sidebar.button("🚀 Predict Churn")
+
+st.sidebar.markdown("📱 Optimized for mobile & desktop")
+
 
 # =========================
 # HEADER
