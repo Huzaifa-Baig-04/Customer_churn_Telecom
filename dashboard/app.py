@@ -16,8 +16,9 @@ st.set_page_config(
 # =========================
 @st.cache_resource
 def load_models():
-    rf_model = joblib.load("../models/churn_model.pkl")
-    lr_model = joblib.load("../models/churn_logistic.pkl")
+    rf_model = joblib.load("models/churn_model.pkl")
+    lr_model = joblib.load("models/churn_logistic.pkl")
+
 
     return rf_model, lr_model
 
