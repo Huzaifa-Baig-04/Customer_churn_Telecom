@@ -1,5 +1,9 @@
 [server]
 headless = true
+port = 8501
 
-[runner]
-pythonVersion = "3.11"
+[theme]
+base = "light"
+
+[python]
+version = "3.11"
