@@ -168,7 +168,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 if not predict_btn:
-    st.info("👈 Fill customer details and click **Predict Churn** to see prediction.")
+    st.info("👈 Fill customer details on the left pannel and click **Predict Churn** to see prediction.")
 
 # =========================
 # PREDICTION
